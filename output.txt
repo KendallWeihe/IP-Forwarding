@@ -1,0 +1,80 @@
+Version = 4
+Header length = 20
+Type of service = 0
+Datagram length = 40
+Identifier = 0
+Flag & offset = 0
+TTL = 1
+Protocol = 17
+Checksum = 35710
+The source IP address = 154.15.10.3
+The source IP address in network order = 50991002
+The destination IP address = 128.15.10.38
+The destination IP address in network order = 638193536
+Checksum verified, decrement TTL
+TTL has reached 0, drop packet
+
+Version = 4
+Header length = 20
+Type of service = 0
+Datagram length = 120
+Identifier = 1
+Flag & offset = 0
+TTL = 10
+Protocol = 17
+Checksum = 35826
+The source IP address = 133.34.11.61
+The source IP address in network order = 1024139909
+The destination IP address = 137.34.11.1
+The destination IP address in network order = 17506953
+Checksum verified, decrement TTL
+Nexthop = 139.34.12.4
+
+
+Version = 4
+Header length = 20
+Type of service = 0
+Datagram length = 52
+Identifier = 2
+Flag & offset = 0
+TTL = 10
+Protocol = 17
+Checksum = 37741
+The source IP address = 21.17.34.5
+The source IP address in network order = 86118677
+The destination IP address = 201.17.34.35
+The destination IP address in network order = 589435337
+Checksum fails, drop packet
+
+Version = 4
+Header length = 20
+Type of service = 0
+Datagram length = 90
+Identifier = 3
+Flag & offset = 0
+TTL = 10
+Protocol = 17
+Checksum = 61001
+The source IP address = 144.12.9.7
+The source IP address in network order = 118033552
+The destination IP address = 137.34.160.17
+The destination IP address in network order = 295707273
+Checksum verified, decrement TTL
+Nexthop = 138.27.4.3
+
+
+Version = 4
+Header length = 20
+Type of service = 0
+Datagram length = 75
+Identifier = 4
+Flag & offset = 0
+TTL = 10
+Protocol = 17
+Checksum = 23145
+The source IP address = 207.19.54.3
+The source IP address in network order = 53875663
+The destination IP address = 27.19.54.12
+The destination IP address in network order = 204870427
+Checksum verified, decrement TTL
+Nexthop = 137.7.5.6

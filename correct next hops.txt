@@ -1,0 +1,5 @@
+first packet:   dropped because of TTL becomes 0.
+second packet: forwarded to 139.34.12.4
+third packet:   dropped because checksum is incorrect
+fourth packet:  forwarded to 138.27.4.3
+fifth packet:      forwarded to 137.7.5.6
